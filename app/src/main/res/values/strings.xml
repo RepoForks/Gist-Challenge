@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gist List</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="gist_owner">Anonymous</string>
+    <string name="gist_file">Gist\'s file</string>
+    <string name="info">Info</string>
+    <string name="made_by">Made with  by Costular</string>
+</resources>

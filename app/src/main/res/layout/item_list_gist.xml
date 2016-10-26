@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/gist_owner_profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/avatar_placeholder"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <LinearLayout
+        android:id="@+id/gist_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gist_owner_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/GistOwner"
+            android:text="@string/gist_owner"/>
+
+        <TextView
+            android:id="@+id/gist_first_filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/GistFile"
+            android:text="@string/gist_file"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

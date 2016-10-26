@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="material_list_title">16sp</dimen>
+    <dimen name="material_list_left_divider_margin">72dp</dimen>
+</resources>
